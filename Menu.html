@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse the Skinner Café menu: cappuccinos, iced lattes, freezos, tea and breakfast from R25. 70 Juta St, Braamfontein, Johannesburg.">
+    <meta name="keywords" content="Cofe,Cofe shop,Cofe shope at bram">
+    <meta name="author" content="Rhulani">
+    <title>Menu | Skinner Café</title>
+    <link rel="stylesheet" href="CSS/StyleMenu.css">
+    <script src="JS/javascreapt.js" defer></script>
+</head>
+<body style="background-color: #E8F5E9 ;">
+     <div class="box">
+  
+    <!--NAVIGATION-->
+    <nav>
+        <div class="LOGO">
+        <img src="Images/LOGO.jpg" style="width: 50px; height: 60px;" alt="">
+        </div>
+       <div class="navigations">
+            <ul >
+                <a href="Index.html">Home</a>
+                <a href="Menu.html">MENU</a>
+                <a href="gallery.html">gallery</a>
+                <a href="About.html">About us</a>
+                <a href="contacts.html">contacts</a>
+            </ul>
+        </div>
+    </nav>
+    <!--MAIN CONTENT-->
+    <main>
+    <div class="menu-section">
+
+                <h1 class="menu-title">Our Menu</h1>
+
+        <div class="menu-info">
+           
+            <ul>
+                <li> 70 Juta St, Braamfontein, Johannesburg, 2001</li>
+                <li>Mon - Fri: 7:30AM - 6PM</li>
+                <li>Sat : 8AM - 5PM</li>
+                <li>Sun : Closed </li>
+            </ul>
+        </div>
+        <!--SEARCH + SORT-->
+        <div class="menu-toolbar">
+            <input type="search" id="menu-search" class="menu-search" placeholder="Search the menu…" aria-label="Search the menu">
+            <select id="menu-sort" class="menu-sort" aria-label="Sort the menu">
+                <option value="default">Sort: default</option>
+                <option value="price-asc">Price: low to high</option>
+                <option value="price-desc">Price: high to low</option>
+                <option value="name">Name: A to Z</option>
+            </select>
+            <span id="menu-count" class="menu-count" aria-live="polite"></span>
+        </div>
+
+        <!--CATEGORY BUTTONS (built by JS)-->
+        <div id="menu-tabs" class="menu-tabs" role="group" aria-label="Menu categories"></div>
+
+        
+        <div id="menu-results" class="menu-panel"></div>
+
+    </div>
+    </main>
+    <!--Social links and copyright. Shared across every page.-->
+    <footer>
+<div class="footer-content">
+        <div class="social-links">
+            <a href="https://www.instagram.com/skinner_cafe/?hl=en" target="_blank" aria-label="Instagram">
+                <img src="Images/instagram-icon.jpg" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/@playbraam" target="_blank" aria-label="TikTok">
+                <img src="Images/tiktok-icon.jpg" alt="TikTok">
+            </a>
+        </div>
+        <p class="copyright">Copyright © 2026 Rhulani Nkuna ST10501757. All rights reserved. <br> Skinner Cofe</p>
+    </div>    
+</footer>
+    
+</body>
+</html>
